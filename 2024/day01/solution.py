@@ -1,7 +1,7 @@
 left = []
 right = []
 
-with open("input.txt", 'r') as file:
+with open("2024/day01/input.txt", 'r') as file:
   for line in file:
     l, r = map(int, line.strip().split())
     left.append(l)
