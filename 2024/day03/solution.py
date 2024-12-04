@@ -1,5 +1,3 @@
-import re
-
 def calculate(input, adv_mode = False):
   state = "I"
   left = ""
