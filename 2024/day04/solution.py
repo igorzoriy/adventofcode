@@ -1,5 +1,3 @@
-
-
 def part1(t):
   count = 0
   width = len(t)
@@ -31,6 +29,7 @@ def part1(t):
 
   return count
 
+
 def part2(t):
   count = 0
   width = len(t)
@@ -49,6 +48,7 @@ def part2(t):
         count += 1
 
   return count
+
 
 with open("2024/day04/input.txt", 'r') as file:
   input = file.read()
